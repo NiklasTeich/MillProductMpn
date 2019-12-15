@@ -1,0 +1,31 @@
+{
+  "name": "mill/product-mpn",
+  "description": "Plugin to display the manufacturer number on the detail page",
+  "version": "1.0.0",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "MILLENWORLD"
+    }
+  ],
+  "require": {
+    "shopware/core": "*"
+  },
+  "extra": {
+    "shopware-plugin-class": "Mill\\ProductMpn\\MillProductMpn",
+    "label": {
+      "de-DE": "Herstellernummer auf Produktseite",
+      "en-GB": "Manufacturer number on product page"
+    },
+    "description": {
+      "de-DE": "Plugin für die Anzeige der Herstellnummer auf der Detailseite",
+      "en-GB": "Plugin to display the manufacturer number on the detail page"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Mill\\ProductMpn\\": "src/"
+    }
+  }
+}
