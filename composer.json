@@ -1,7 +1,7 @@
 {
   "name": "mill/product-mpn",
   "description": "Plugin to display the manufacturer number on the detail page",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "shopware-platform-plugin",
   "license": "MIT",
   "authors": [
@@ -10,7 +10,8 @@
     }
   ],
   "require": {
-    "shopware/core": "*"
+    "shopware/core": "*",
+    "shopware/storefront": "*"
   },
   "extra": {
     "shopware-plugin-class": "Mill\\ProductMpn\\MillProductMpn",
