@@ -6,3 +6,6 @@
 - added styles
 - fixed shopware 6.1 snippet namespace
 - added storefront composer require
+
+# 1.0.2
+- Shopware 6.3 support
