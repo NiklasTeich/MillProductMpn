@@ -9,3 +9,6 @@
 
 # 1.0.2
 - Shopware 6.3 support
+
+# 1.0.3
+- fix to remove structured data itemprop
